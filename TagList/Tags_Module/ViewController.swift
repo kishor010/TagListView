@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
     
     @objc fileprivate func addTapped() {
-        self.data.append("Kishor")
+        self.data.append("Test")
         reloadTableViewDelay()
     }
     
@@ -85,5 +85,5 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
 
 //MARK:- Set Dummy Data
 struct StructData {
-    static var data = ["Kishor", "iOS", "Developer", "Software Engineer", "ABCI", "Coding", "Xcode", "I am a GEEKY","JKLMNO" , "Testing Coding", "Development", "XYZ-XYZ-XYZCD", "Enable the Tag Layout", "Layouts Arrangement"]
+    static var data = ["Test", "iOS", "Developer", "Software Engineer", "ABCI", "Coding", "Xcode", "I am a GEEKY","JKLMNO" , "Testing Coding", "Development", "XYZ-XYZ-XYZCD", "Enable the Tag Layout", "Layouts Arrangement"]
 }
